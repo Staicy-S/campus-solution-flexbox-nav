@@ -9,6 +9,9 @@ body {
 }
 
 header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   background-color: #264653;
   color: white;
   height: 120px;
@@ -16,6 +19,7 @@ header {
 }
 
 nav ul {
+  display: flex;
   list-style-type: none;
   gap: 12px;
 }
