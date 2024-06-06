@@ -32,3 +32,10 @@ header a {
 main {
   padding: 20px;
 }
+
+footer ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+  align-items: center;
+}
